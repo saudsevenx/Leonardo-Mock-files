@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Leonardo247 - Loss Runs Staging Data</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
+<script src="global_assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="global_assets/js/demo_pages/datatables_advanced.js"></script>
+	<script src="global_assets/js/demo_pages/form_select2.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-expand-lg navbar-dark bg-white navbar-static">
+		<div class="d-flex flex-1 d-lg-none">
+			<button class="navbar-toggler sidebar-mobile-main-toggle" style="color:#333;" type="button">
+				<i class="icon-paragraph-justify3"></i>
+			</button>
+
+			<button data-target="#navbar-search" type="button" class="navbar-toggler" data-toggle="collapse">
+				<i class="icon-search4"></i>
+			</button>
+		</div>
+
+		<div class="navbar-brand text-center text-lg-left">
+			<a href="#" class="d-inline-block">
+				<img src="global_assets/images/L247_Logo.png" class="d-none d-sm-block" alt="">
+				<img src="global_assets/images/L247_Logo.png" class="d-sm-none" alt="">
+			</a>
+		</div>
+
+		<div class="navbar-collapse collapse flex-lg-1 mx-lg-3 order-2 order-lg-1" id="navbar-search">
+			<div class="navbar-search d-flex align-items-center py-2 py-lg-0">
+				<div class="form-group-feedback form-group-feedback-left flex-grow-1">
+				</div>
+			</div>
+		</div>
+
+		<div class="d-flex justify-content-end align-items-center flex-1 flex-lg-0 order-1 order-lg-2 pull-right">
+			<ul class="navbar-nav flex-row">
+				<li class="nav-item">
+					<a href="login.html" class="navbar-nav-link navbar-nav-link-toggler" style="color:#333;">
+						Welcome, Jason Doyle
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="login.html" class="navbar-nav-link navbar-nav-link-toggler" style="color:#333;">
+						<i class="icon-switch2"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+		<div class="sidebar sidebar-light sidebar-main sidebar-expand-lg bg-indigo">
+
+			<!-- Sidebar content -->
+			<div class="sidebar-content">
+
+				<!-- Main navigation -->
+				<div class="sidebar-section">
+							<div class="d-flex" style="padding:10px;">
+								<div class="flex-1 text-right">
+									<button type="button" class="btn btn-outline-light border-transparent btn-icon rounded-pill btn-sm sidebar-control sidebar-main-resize d-none d-lg-inline-flex">
+										<i class="icon-transmission"></i>
+									</button>
+
+									<button type="button" class="btn btn-outline-light border-transparent btn-icon rounded-pill btn-sm sidebar-mobile-main-toggle d-lg-none">
+										<i class="icon-cross2"></i>
+									</button>
+								</div>
+							</div>
+					<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+						<!-- Main -->
+						<li class="nav-item">
+							<a href="lrupload.html" class="nav-link">
+								<i class="icon-upload"></i><span>Upload Loss Runs Files</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="lrstatus.html" class="nav-link">
+								<i class="icon-statistics"></i><span>Loss Runs Files Upload Status</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-calendar5"></i> <span>Manage Loss Runs Data</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Manage Loss Runs Data">
+								<li class="nav-item"><a href="staging.html" class="nav-link active">Loss Runs Staging Data</a></li>
+								<li class="nav-item"><a href="asset.html" class="nav-link">Assets</a></li>
+								<li class="nav-item"><a href="insurance.html" class="nav-link">Insurance</a></li>
+								<li class="nav-item"><a href="incident.html" class="nav-link">Loss Runs Incident Details</a></li>
+								<li class="nav-item"><a href="claim.html" class="nav-link">Loss Run Claim Details</a></li>
+								<li class="nav-item"><a href="payment.html" class="nav-link">Loss Runs Payment Details</a></li>
+								<li class="nav-item"><a href="settle.html" class="nav-link">Loss Run Claim Settlement Details</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="rules.html" class="nav-link">
+								<i class="icon-pencil-ruler"></i><span>Manage Rules</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="activitylog.html" class="nav-link">
+								<i class="icon-pulse2"></i><span>Activity Log</span>
+							</a>
+						</li>
+						
+						<!-- /main -->
+
+					</ul>
+				</div>
+				<!-- /main navigation -->
+
+			</div>
+			<!-- /sidebar content -->
+			
+		</div>
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Inner content -->
+			<div class="content-inner">
+
+				<!-- Page header -->
+				<div class="page-header page-header-light">
+					<div class="breadcrumb-line breadcrumb-line-light header-elements-lg-inline">
+						<div class="d-flex">
+							<div class="breadcrumb">
+								<a href="asset.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Loss Runs Staging Data</a>
+							</div>
+
+							<a href="#" class="header-elements-toggle text-body d-lg-none"><i class="icon-more"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /page header -->
+
+
+				<!-- Content area -->
+				<div class="content">
+
+					<!-- Multiple file upload -->
+					<div class="card">
+						<div class="card-header bg-transparent header-elements-inline py-0">
+							<h5 class="card-title py-3">Summit Insurance Loss Runs Staging Data</h5>
+						</div>
+
+						<div class="card-body" style="overflow:scroll;">
+						<table class="table table-bordered table-hover datatable-highlight">
+							<thead>
+								<tr>
+									<th>Named Insured</th>
+									<th>Broker Company</th>
+									<th>Property Management Company</th>
+									<th>York file</th>
+									<th>MSC File</th>
+									<th>Policy Number</th>
+									<th>Insurance Carrier</th>
+									<th>Policy Inception Date</th>									
+									<th>Policy Expiration Date</th>
+									<th>Policy Type</th>
+									<th>Line of Business</th>
+									<th>Claim Number</th>
+									<th>Feature Number</th>
+									<th>Claimant</th>
+									<th>Claim Status</th>
+									<th>Claim Remark</th>
+									<th>Feature Status</th>
+									<th>Loss Location</th>
+									<th>Property Name</th>
+									<th>Unit Number</th>									
+									<th>Street</th>
+									<th>City</th>
+									<th>State</th>
+									<th>Zip</th>
+									<th>Insured as on</th>
+									<th>Evaluation Date</th>
+									<th>Loss Date</th>
+									<th>Report Date</th>
+									<th>Closed Date</th>
+									<th>Reopen Date</th>
+									<th>Coverage</th>
+									<th>Loss Type</th>									
+									<th>Injury Type</th>
+									<th>Part of Body</th>
+									<th>Detailed Loss Description</th>
+									<th>Catastrophe Indicator</th>
+									<th>Catastrophe Name</th>
+									<th>Total Incurred Loss and Expense</th>
+									<th>Summary Year</th>
+									<th>Yearly status</th>
+									<th>Yearwise Total Damage</th>
+									<th>Yearwise Deductible</th>
+									<th>Yearwise Subrogation</th>
+									<th>Yearwise Loss Reserve</th>									
+									<th>Yearwise Expense Reserve</th>
+									<th>Yearwise Total Reserve</th>
+									<th>Yearwise Loss Paid</th>
+									<th>Yearwise Expense Paid</th>
+									<th>Yearwise Recovered</th>
+									<th>Yearwise Total Paid/Incurred</th>
+									<th>Total Reserves</th>
+									<th>Total Payment</th>
+									<th>Total Outstanding</th>
+									<th>Total Damage</th>
+									<th>Subrogation</th>
+									<th>Loss Reserves</th>									
+									<th>Expense Reserves</th>
+									<th>Loss Payment</th>
+									<th>Expense Payment</th>
+									<th>Expense Type</th>
+									<th>Deductible</th>
+									<th>Recoveries</th>
+									<th>Claim_Loss Reserves</th>
+									<th>Claim_Expense Reserves</th>
+									<th>Claim_Loss Payment</th>
+									<th>Claim_Expense Payment</th>
+									<th>Claim_Expense Type</th>
+									<th>Claim_Deductible</th>									
+									<th>Claim_Recoveries</th>
+									<th>Attorney Representation Indicator</th>
+									<th>Attorney Representation Date</th>
+									<th>Defense Attorney</th>
+									<th>Litigation Indicator</th>
+									<th>Litigation Date</th>
+									<th>Settlement Type</th>
+									<th>Settlement Date</th>
+									<th>Method of Settlement</th>
+									<th>Settlement Amount</th>
+									<th>Adjusting Office</th>
+									<th>Adjuster</th>									
+									<!--th class="text-center">Actions</th-->
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" valign=top><font color="#000000">SPCP, LLC</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">CAS000153/1800</font></td>
+									<td align="left" valign=top><font color="#000000">Avondale Insurance Associates, Inc.</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2018</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2019</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">ADIH18070004</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Closed</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">02/23/2021</font></td>
+									<td align="right" valign=top sdval="43379" sdnum="1033;1033;M/D/YYYY"><font color="#000000">10/6/2018</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Slip and Fall</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;0.00"><font color="#000000">0.00</font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;#,##0.00"><font color="#000000">0.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<!--td class="text-center">
+										<div class="list-icons">
+											<div class="dropdown">
+												<a href="#" class="list-icons-item" data-toggle="dropdown">
+													<i class="icon-menu9"></i>
+												</a>
+
+												<div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item" data-toggle="modal" data-target="#modal_scrollable"><i class="icon-pencil"></i> Edit</a>
+													<a href="#" class="dropdown-item" onclick="javascript:confirm('Are you sure to delete this record?');"><i class="icon-trash"></i> Delete</a>
+												</div>
+											</div>
+										</div>
+									</td-->						
+								</tr>
+								<tr>
+									<td align="left" valign=top><font color="#000000">SPCP, LLC</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">CAS000153/1800</font></td>
+									<td align="left" valign=top><font color="#000000">Avondale Insurance Associates, Inc.</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2018</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2019</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">ADIH18070004</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Closed</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">02/23/2021</font></td>
+									<td align="right" valign=top sdval="43379" sdnum="1033;1033;M/D/YYYY"><font color="#000000">10/6/2018</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Slip and Fall</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;0.00"><font color="#000000">0.00</font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;#,##0.00"><font color="#000000">0.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<!--td class="text-center">
+										<div class="list-icons">
+											<div class="dropdown">
+												<a href="#" class="list-icons-item" data-toggle="dropdown">
+													<i class="icon-menu9"></i>
+												</a>
+
+												<div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item" data-toggle="modal" data-target="#modal_scrollable"><i class="icon-pencil"></i> Edit</a>
+													<a href="#" class="dropdown-item" onclick="javascript:confirm('Are you sure to delete this record?');"><i class="icon-trash"></i> Delete</a>
+												</div>
+											</div>
+										</div>
+									</td-->						
+								</tr>
+								<tr>
+									<td align="left" valign=top><font color="#000000">SPCP, LLC</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">CAS000153/1800</font></td>
+									<td align="left" valign=top><font color="#000000">Avondale Insurance Associates, Inc.</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2018</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2019</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">ADIH18070004</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Closed</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">02/23/2021</font></td>
+									<td align="right" valign=top sdval="43379" sdnum="1033;1033;M/D/YYYY"><font color="#000000">10/6/2018</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Slip and Fall</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;0.00"><font color="#000000">0.00</font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;#,##0.00"><font color="#000000">0.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<!--td class="text-center">
+										<div class="list-icons">
+											<div class="dropdown">
+												<a href="#" class="list-icons-item" data-toggle="dropdown">
+													<i class="icon-menu9"></i>
+												</a>
+
+												<div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item" data-toggle="modal" data-target="#modal_scrollable"><i class="icon-pencil"></i> Edit</a>
+													<a href="#" class="dropdown-item" onclick="javascript:confirm('Are you sure to delete this record?');"><i class="icon-trash"></i> Delete</a>
+												</div>
+											</div>
+										</div>
+									</td-->						
+								</tr>
+								<tr>
+									<td align="left" valign=top><font color="#000000">SPCP, LLC</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">CAS000153/1800</font></td>
+									<td align="left" valign=top><font color="#000000">Avondale Insurance Associates, Inc.</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2018</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2019</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">ADIH18070004</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Closed</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">02/23/2021</font></td>
+									<td align="right" valign=top sdval="43379" sdnum="1033;1033;M/D/YYYY"><font color="#000000">10/6/2018</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Slip and Fall</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;0.00"><font color="#000000">0.00</font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;#,##0.00"><font color="#000000">0.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<!--td class="text-center">
+										<div class="list-icons">
+											<div class="dropdown">
+												<a href="#" class="list-icons-item" data-toggle="dropdown">
+													<i class="icon-menu9"></i>
+												</a>
+
+												<div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item" data-toggle="modal" data-target="#modal_scrollable"><i class="icon-pencil"></i> Edit</a>
+													<a href="#" class="dropdown-item" onclick="javascript:confirm('Are you sure to delete this record?');"><i class="icon-trash"></i> Delete</a>
+												</div>
+											</div>
+										</div>
+									</td-->						
+								</tr>
+								<tr>
+									<td align="left" valign=top><font color="#000000">SPCP, LLC</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">CAS000153/1800</font></td>
+									<td align="left" valign=top><font color="#000000">Avondale Insurance Associates, Inc.</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2018</font></td>
+									<td align="left" valign=top><font color="#000000">05/15/2019</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">ADIH18070004</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Closed</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">TX</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">02/23/2021</font></td>
+									<td align="right" valign=top sdval="43379" sdnum="1033;1033;M/D/YYYY"><font color="#000000">10/6/2018</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000">Slip and Fall</font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;0.00"><font color="#000000">0.00</font></td>
+									<td align="right" valign=top sdval="32975" sdnum="1033;0;#,##0.00"><font color="#000000">32,975.00</font></td>
+									<td align="right" valign=top sdval="0" sdnum="1033;0;#,##0.00"><font color="#000000">0.00</font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top sdnum="1033;0;#,##0.00"><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<td align="left" valign=top><font color="#000000"><br></font></td>
+									<!--td class="text-center">
+										<div class="list-icons">
+											<div class="dropdown">
+												<a href="#" class="list-icons-item" data-toggle="dropdown">
+													<i class="icon-menu9"></i>
+												</a>
+
+												<div class="dropdown-menu dropdown-menu-right">
+													<a href="#" class="dropdown-item" data-toggle="modal" data-target="#modal_scrollable"><i class="icon-pencil"></i> Edit</a>
+													<a href="#" class="dropdown-item" onclick="javascript:confirm('Are you sure to delete this record?');"><i class="icon-trash"></i> Delete</a>
+												</div>
+											</div>
+										</div>
+									</td-->						
+								</tr>								
+							</tbody>
+						</table>
+						</div>
+					</div>
+					<!-- /multiple file upload -->
+
+				</div>
+				<!-- /content area -->
+
+
+				<!-- Footer -->
+				<div class="navbar navbar-expand-lg navbar-light">
+					<div class="text-center d-lg-none w-100">
+						<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+							<i class="icon-unfold mr-2"></i>
+							Footer
+						</button>
+					</div>
+
+					<div class="navbar-collapse collapse" id="navbar-footer">
+						<span class="navbar-text">
+							&copy; 2022. <a href="#">Leonardo247 Inc.</a>
+						</span>
+					</div>
+				</div>
+				<!-- /footer -->
+
+			</div>
+			<!-- /inner content -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+	<div id="modal_scrollable" class="modal fade" data-backdrop="false" tabindex="-1">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header pb-3 bg-primary text-white">
+					<h5 class="modal-title">Loss Run Staging Data</h5>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<div class="modal-body py-0">
+				<br/>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Named Insured:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Broker Company:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Property Management Company:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>York file:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+							</div>
+
+							<div class="row">
+
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>MSC File:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Policy Number:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+							</div>
+							<div class="row">
+
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Insurance Carrier:</label>
+										<input type="text" class="form-control">
+									</div>	
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Policy Inception Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Policy Expiration Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Policy Type:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Line of Business:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim Number:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Feature Number:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claimant:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim Status:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim Remark:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Feature Status:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Loss Location:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Property Name:<span style="color:red;"> *</span></label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Unit Number:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Street:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>City:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>State:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Zip:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Insured as on:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Evaluation Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Loss Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Report Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Insured as on:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Evaluation Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Closed Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Reopen Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Coverage:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Loss Type:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Injury Type:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Part of Body:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Detailed Loss Description:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Catastrophe Indicator:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Catastrophe Name:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Total Incurred Loss and Expense:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Summary Year:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearly status:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Total Damage:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Deductible:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Subrogation:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Loss Reserve:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Expense Reserve:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Total Reserve:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Loss Paid:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Expense Paid:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Recovered:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Yearwise Total Paid/Incurred:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Total Reserves:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Total Payment:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Total Outstanding:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Total Damage:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Subrogation:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Loss Reserves:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Expense Reserves:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Loss Payment:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Expense Payment:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Expense Type:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Deductible:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Recoveries:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim_Loss Reserves:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim_Expense Reserves:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim_Loss Payment:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim_Expense Payment:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim_Expense Type:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim_Deductible:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Claim_Recoveries:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Attorney Representation Indicator:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Attorney Representation Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Defense Attorney:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Litigation Indicator:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Litigation Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Settlement Type:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Settlement Date:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Method of Settlement:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Settlement Amount:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Adjusting Office:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>							
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Adjuster:</label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+
+				<div class="modal-footer pt-3">
+					<button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

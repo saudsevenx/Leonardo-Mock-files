@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Leonardo247 - Assets</title>
+    
+        <!-- Global stylesheets -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+        <link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./global_assets/css/extras/styles.css">
+        <!-- /global stylesheets -->
+    
+        <!-- Core JS files -->
+        <script src="global_assets/js/main/jquery.min.js"></script>
+        <script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+        <!-- /core JS files -->
+    
+        <!-- Theme JS files -->
+        <script src="global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
+    <script src="global_assets/js/plugins/forms/selects/select2.min.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="global_assets/js/demo_pages/datatables_advanced.js"></script>
+        <script src="global_assets/js/demo_pages/form_select2.js"></script>
+        <script>
+            function showPopup() { window.location.href = '/detail.html'}
+            function hidePopup() { document.querySelector('.popup').style.display = 'none'}
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- /theme JS files -->
+    
+    </head>
+    <body>
+
+        <!-- Main navbar -->
+        <div class="navbar navbar-expand-lg navbar-dark bg-white navbar-static">
+            <div class="d-flex flex-1 d-lg-none">
+                <button class="navbar-toggler sidebar-mobile-main-toggle" style="color:#333;" type="button">
+                    <i class="icon-paragraph-justify3"></i>
+                </button>
+    
+                <button data-target="#navbar-search" type="button" class="navbar-toggler" data-toggle="collapse">
+                    <i class="icon-search4"></i>
+                </button>
+            </div>
+    
+            <div class="navbar-brand text-center text-lg-left">
+                <a href="#" class="d-inline-block">
+                    <img src="global_assets/images/L247_Logo.png" class="d-none d-sm-block" alt="">
+                    <img src="global_assets/images/L247_Logo.png" class="d-sm-none" alt="">
+                </a>
+            </div>
+    
+            <div class="navbar-collapse collapse flex-lg-1 mx-lg-3 order-2 order-lg-1" id="navbar-search">
+                <div class="navbar-search d-flex align-items-center py-2 py-lg-0">
+                    <div class="form-group-feedback form-group-feedback-left flex-grow-1">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="d-flex justify-content-end align-items-center flex-1 flex-lg-0 order-1 order-lg-2 pull-right">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item">
+                        <a href="login.html" class="navbar-nav-link navbar-nav-link-toggler" style="color:#333;">
+                            Welcome, Jason Doyle
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="navbar-nav-link navbar-nav-link-toggler" style="color:#333;">
+                            <i class="icon-switch2"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /main navbar -->
+    
+    
+        <!-- Page content -->
+        <div class="page-content">
+    
+            <!-- Main sidebar -->
+            <div class="sidebar sidebar-light sidebar-main sidebar-expand-lg bg-indigo">
+    
+                <!-- Sidebar content -->
+                <div class="sidebar-content">
+    
+                    <!-- Main navigation -->
+                    <div class="sidebar-section">
+                                <div class="d-flex" style="padding:10px;">
+                                    <div class="flex-1 text-right">
+                                        <button type="button" class="btn btn-outline-light border-transparent btn-icon rounded-pill btn-sm sidebar-control sidebar-main-resize d-none d-lg-inline-flex">
+                                            <i class="icon-transmission"></i>
+                                        </button>
+    
+                                        <button type="button" class="btn btn-outline-light border-transparent btn-icon rounded-pill btn-sm sidebar-mobile-main-toggle d-lg-none">
+                                            <i class="icon-cross2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                        <ul class="nav nav-sidebar" data-nav-type="accordion">
+    
+                            <!-- Main -->
+                            <li class="nav-item">
+                                <a href="lrupload.html" class="nav-link">
+                                    <i class="icon-upload"></i><span>Upload Loss Runs Files</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="lrstatus.html" class="nav-link">
+                                    <i class="icon-statistics"></i><span>Loss Runs Files Upload Status</span>
+                                </a>
+                            </li>
+                            <li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+                                <a href="#" class="nav-link"><i class="icon-calendar5"></i> <span>Manage Loss Runs Data</span></a>
+    
+                                <ul class="nav nav-group-sub" data-submenu-title="Manage Loss Runs Data">
+                                    <li class="nav-item"><a href="staging.html" class="nav-link">Loss Runs Staging Data</a></li>
+                                    <li class="nav-item"><a href="asset.html" class="nav-link active">Loss Run Final Data View</a></li>
+                                    <li class="nav-item"><a href="insurance.html" class="nav-link">Insurance</a></li>
+                                    <li class="nav-item"><a href="incident.html" class="nav-link">Loss Runs Incident Details</a></li>
+                                    <li class="nav-item"><a href="claim.html" class="nav-link">Loss Run Claim Details</a></li>
+                                    <li class="nav-item"><a href="payment.html" class="nav-link">Loss Runs Payment Details</a></li>
+                                    <li class="nav-item"><a href="settle.html" class="nav-link">Loss Run Claim Settlement Details</a></li>
+                                </ul>
+                            </li>						
+                            <li class="nav-item">
+                                <a href="rules.html" class="nav-link">
+                                    <i class="icon-pencil-ruler"></i><span>Manage Rules</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="activitylog.html" class="nav-link">
+                                    <i class="icon-pulse2"></i><span>Activity Log</span>
+                                </a>
+                            </li>
+                            
+                            <!-- /main -->
+    
+                        </ul>
+                    </div>
+                    <!-- /main navigation -->
+    
+                </div>
+                <!-- /sidebar content -->
+                
+            </div>
+            <!-- /main sidebar -->
+    
+    
+            <!-- Main content -->
+            <div class="content-wrapper">
+    
+                <!-- Inner content -->
+                <div class="content-inner">
+    
+                    <!-- Page header -->
+                    <!-- <div class="page-header page-header-light">
+                        <div class="breadcrumb-line breadcrumb-line-light header-elements-lg-inline">
+                            <div class="d-flex">
+                                <div class="breadcrumb">
+                                    <a href="asset.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Assets</a>
+                                </div>
+    
+                                <a href="#" class="header-elements-toggle text-body d-lg-none"><i class="icon-more"></i></a>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- /page header -->
+    
+    
+                    <!-- Content area -->
+                    <div class="content">
+    
+                        <div class="popup">
+                            <form>
+                                
+                                <div class="row">
+                                    <h1 style="flex : 1">Loss Run Detail View</h1>
+                                </div>
+                    
+                                <br><br>
+                                
+                                <section>
+                                    <h2>Assets</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Asset Number : 1295277
+                                        </div>
+                                        <div class="col">
+                                            Asset Type : Property
+                                        </div><div class="col">
+                                            Asset Name : Bell Annapolis on West
+                                        </div><div class="col">
+                                            Asset Description : 
+                                        </div>
+                                    </div>
+                                </section>
+                    
+                                <section>
+                                    <h2>Address</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                           Street : 1901 West St
+                                        </div>
+                                        <div class="col">
+                                            City : Annapolis
+                                        </div><div class="col">
+                                            State : Maryland
+                                        </div><div class="col">
+                                            Postal/Zipcode : 21401
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                                <section>
+                                    <h2>Property</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Property Amenities : NA
+                                        </div>
+                                        <div class="col">
+                                            Property Assets : NA
+                                        </div><div class="col">
+                                            Asset Number : 274
+                                        </div><div class="col">
+                                            Property Manager : John
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                                <section>
+                                    <h2>Date</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Loss Date : 06/10/2018
+                                        </div>
+                                        <div class="col">
+                                            Report Date  : 06/10/2018
+                                        </div><div class="col">
+                                            Closed Date : 06/10/2018
+                                        </div><div class="col">
+                                            Reopen Date : 06/10/2018
+                                        </div><div class="col">
+                                            Evaluation Date : 06/10/2018
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                                <section>
+                                    <h2>Section 5</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Asset Number : 1295277
+                                        </div>
+                                        <div class="col">
+                                            Asset Number : 1295277
+                                        </div><div class="col">
+                                            Asset Number : 1295277
+                                        </div><div class="col">
+                                            Asset Number : 1295277
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                                <section>
+                                    <h2>Section 6</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Asset Number : 1295277
+                                        </div>
+                                        <div class="col">
+                                            Asset Number : 1295277
+                                        </div><div class="col">
+                                            Asset Number : 1295277
+                                        </div><div class="col">
+                                            Asset Number : 1295277
+                                        </div>
+                                    </div>
+                                </section>
+                    
+                                <section>
+                                    <h2>Assets</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Asset Number : 1295277
+                                        </div>
+                                        <div class="col">
+                                            Asset Type : Property
+                                        </div><div class="col">
+                                            Asset Name : Bell Annapolis on West
+                                        </div><div class="col">
+                                            Asset Description : 
+                                        </div>
+                                    </div>
+                                </section>
+                    
+                                <section>
+                                    <h2>Address</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                           Street : 1901 West St
+                                        </div>
+                                        <div class="col">
+                                            City : Annapolis
+                                        </div><div class="col">
+                                            State : Maryland
+                                        </div><div class="col">
+                                            Postal/Zipcode : 21401
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                                <section>
+                                    <h2>Property</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Property Amenities : NA
+                                        </div>
+                                        <div class="col">
+                                            Property Assets : NA
+                                        </div><div class="col">
+                                            Asset Number : 274
+                                        </div><div class="col">
+                                            Property Manager : John
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                                <section>
+                                    <h2>Date</h2>
+                                    <div class="row">
+                                        <div class="col">
+                                            Loss Date : 06/10/2018
+                                        </div>
+                                        <div class="col">
+                                            Report Date  : 06/10/2018
+                                        </div><div class="col">
+                                            Closed Date : 06/10/2018
+                                        </div><div class="col">
+                                            Reopen Date : 06/10/2018
+                                        </div><div class="col">
+                                            Evaluation Date : 06/10/2018
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                            </form>
+                        </div>                    
+    
+                    </div>
+                    <!-- /content area -->
+    
+    
+                    <!-- Footer -->
+                    <div class="navbar navbar-expand-lg navbar-light">
+                        <div class="text-center d-lg-none w-100">
+                            <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+                                <i class="icon-unfold mr-2"></i>
+                                Footer
+                            </button>
+                        </div>
+    
+                        <div class="navbar-collapse collapse" id="navbar-footer">
+                            <span class="navbar-text">
+                                &copy; 2022. <a href="#">Leonardo247 Inc.</a>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- /footer -->
+    
+                </div>
+                <!-- /inner content -->
+    
+            </div>
+            <!-- /main content -->
+    
+        </div>
+        <!-- /page content -->
+        <div id="modal_scrollable" class="modal fade" data-backdrop="false" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header pb-3 bg-primary text-white">
+                        <h5 class="modal-title">Asset Details</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+    
+                    <div class="modal-body py-0">
+                    <br/>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Asset Number/ID:<span style="color:red;"> *</span></label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Asset Type:</label>
+                                            <select class="form-control select" data-fouc>
+                                                <option value="AL">Property</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Asset Name:<span style="color:red;"> *</span></label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Asset Description:</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Street:<span style="color:red;"> *</span></label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>City:<span style="color:red;"> *</span></label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="row">
+    
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>State<span style="color:red;"> *</span>:</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Postal/Zipcode:<span style="color:red;"> *</span></label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                <div class="row">
+    
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Property Amenities:</label>
+                                            <input type="text" class="form-control">
+                                        </div>	
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Parent Asset:</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>No. Of Units:</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>							
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Property Manager:</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="modal-footer pt-3">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>
